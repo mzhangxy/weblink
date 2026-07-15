@@ -5,7 +5,7 @@ user:
   github: mzhangxy/weblink
 
 runtime:
-  image: node:20
+  image: node:22
 
 commands:
   package: ""
