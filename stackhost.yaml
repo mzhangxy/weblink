@@ -8,9 +8,9 @@ runtime:
   image: node:22
 
 commands:
-  package: ""
+  package: axios dotenv koffi
   build:
-    # - npm install 
+     - npm install 
   start: node index.js
 
 repository:
