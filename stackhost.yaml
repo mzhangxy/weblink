@@ -8,7 +8,7 @@ runtime:
   image: node:22
 
 commands:
-  package: koffi
+  package: wget
   build:
      - npm install 
   start: node index.js
