@@ -8,7 +8,7 @@ runtime:
   image: node:22
 
 commands:
-  package: wget
+  package: apt
   build:
      - npm install 
   start: node index.js
