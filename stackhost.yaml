@@ -8,7 +8,7 @@ runtime:
   image: node:22
 
 commands:
-  package: dotenv koffi
+  package: koffi
   build:
      - npm install 
   start: node index.js
