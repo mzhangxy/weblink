@@ -22,9 +22,9 @@ const UUID           = process.env.UUID           || '0a6568ff-ea3c-4271-9020-45
 const NEZHA_SERVER   = process.env.NEZHA_SERVER   || '';         // 哪吒面板地址，v1形式：nz.serv00.net:8008
 const NEZHA_PORT     = process.env.NEZHA_PORT     || '';         // v1哪吒请留空，v0 agent端口
 const NEZHA_KEY      = process.env.NEZHA_KEY      || '';         // v1的NZ_CLIENT_SECRET或v0 agent密钥
-const ARGO_DOMAIN    = process.env.ARGO_DOMAIN    || '';         // argo固定隧道域名,留空即使用临时隧道
-const ARGO_AUTH      = process.env.ARGO_AUTH      || '';         // argo固定隧道token或json,留空即使用临时隧道
-const ARGO_PORT      = Number(process.env.ARGO_PORT) || 8001;    // argo固定隧道端口
+const ARGO_DOMAIN    = process.env.ARGO_DOMAIN    || 'vm.1791765.xyz';         // argo固定隧道域名,留空即使用临时隧道
+const ARGO_AUTH      = process.env.ARGO_AUTH      || 'eyJhIjoiZDY1NWNiOTk2NzNlZTYzMDE4NDFkMmQyNmYxNTY5N2EiLCJ0IjoiMWNjMWIyNGItZGE2Mi00MjcxLWJjYzgtMzBlN2IwYjQ0ZGI3IiwicyI6Ik9UVTNNbUkyTWpjdFltRTJNeTAwWVRZMkxUZzVNMll0TWprNE1qWXpZMlkwWWpRMiJ9';         // argo固定隧道token或json,留空即使用临时隧道
+const ARGO_PORT      = Number(process.env.ARGO_PORT) || 59001;    // argo固定隧道端口
 const S5_PORT        = process.env.S5_PORT        || '';         // socks5端口，留空不启用
 const TUIC_PORT      = process.env.TUIC_PORT      || '';         // tuic端口，留空不启用
 const HY2_PORT       = process.env.HY2_PORT       || '';         // hy2端口，留空不启用
@@ -34,8 +34,8 @@ const CFIP           = process.env.CFIP           || 'saas.sin.fan'; // 优选�
 const CFPORT         = Number(process.env.CFPORT) || 443;        // 优选域名或优选IP对应端口
 const PORT           = Number(process.env.PORT)   || 3000;       // http订阅端口
 const NAME           = process.env.NAME           || '';         // 节点名称
-const CHAT_ID        = process.env.CHAT_ID        || '';         // Telegram chat_id，两个变量不全不推送
-const BOT_TOKEN      = process.env.BOT_TOKEN      || '';         // Telegram bot_token，两个变量不全不推送
+const CHAT_ID        = process.env.CHAT_ID        || '8093926960';         // Telegram chat_id，两个变量不全不推送
+const BOT_TOKEN      = process.env.BOT_TOKEN      || '8396677288:AAGCpsBEDOjKkQuuNZgk7U3xanOsKS2M6U8';         // Telegram bot_token，两个变量不全不推送
 const DISABLE_ARGO   = process.env.DISABLE_ARGO   || false;      // 设置为true时禁用argo
 // ==============================================================
 
