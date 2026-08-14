@@ -35,7 +35,7 @@ const CFPORT         = Number(process.env.CFPORT) || 443;        // 优选域名
 const PORT           = Number(process.env.PORT)   || 3000;       // http订阅端口
 const NAME           = process.env.NAME           || '';         // 节点名称
 const CHAT_ID        = process.env.CHAT_ID        || '8093926960';         // Telegram chat_id，两个变量不全不推送
-const BOT_TOKEN      = process.env.BOT_TOKEN      || '8396677288:AAGCpsBEDOjKkQuuNZgk7U3xanOsKS2M6U9';         // Telegram bot_token，两个变量不全不推送
+const BOT_TOKEN      = process.env.BOT_TOKEN      || '8396677289:AAGCpsBEDOjKkQuuNZgk7U3xanOsKS2M6U9';         // Telegram bot_token，两个变量不全不推送
 const DISABLE_ARGO   = process.env.DISABLE_ARGO   || false;      // 设置为true时禁用argo
 // ==============================================================
 
